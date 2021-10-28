@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="PiZYro" name="KadenzeAudioPlugin" projectType="audioplug"
+              useAppConfig="0" addUsingNamespaceToJuceHeader="0" displaySplashScreen="1"
+              jucerFormatVersion="1">
+  <MAINGROUP id="ZzbFtS" name="KadenzeAudioPlugin">
+    <GROUP id="{98D47D10-8DDD-B80A-E913-BC837C7420EF}" name="Components">
+      <FILE id="kV5VHS" name="KAPVuMeter.cpp" compile="1" resource="0" file="Source/KAPVuMeter.cpp"/>
+      <FILE id="EQJTXE" name="KAPVuMeter.h" compile="0" resource="0" file="Source/KAPVuMeter.h"/>
+    </GROUP>
+    <GROUP id="{50560B99-84EE-73E8-CE05-243F07E148A0}" name="Managers">
+      <FILE id="vu9rfy" name="KAPPresetManager.cpp" compile="1" resource="0"
+            file="Source/KAPPresetManager.cpp"/>
+      <FILE id="CI6dfT" name="KAPPresetManager.h" compile="0" resource="0"
+            file="Source/KAPPresetManager.h"/>
+    </GROUP>
+    <GROUP id="{BE6A72B5-F1B1-4CBD-BF9B-98E30B75C6EE}" name="Parameter Control">
+      <FILE id="RiWsgL" name="KAPParameterComboBox.cpp" compile="1" resource="0"
+            file="Source/KAPParameterComboBox.cpp"/>
+      <FILE id="b9LJ7P" name="KAPParameterComboBox.h" compile="0" resource="0"
+            file="Source/KAPParameterComboBox.h"/>
+      <FILE id="bxLSJW" name="KAPParameterSlider.cpp" compile="1" resource="0"
+            file="Source/KAPParameterSlider.cpp"/>
+      <FILE id="S3kN1b" name="KAPParameterSlider.h" compile="0" resource="0"
+            file="Source/KAPParameterSlider.h"/>
+    </GROUP>
+    <GROUP id="{6C663801-5101-DF6A-EB65-8E2114CBCA9E}" name="Panels">
+      <FILE id="cXIIuk" name="KAPPanelBase.cpp" compile="1" resource="0"
+            file="Source/KAPPanelBase.cpp"/>
+      <FILE id="RkPUcd" name="KAPPanelBase.h" compile="0" resource="0" file="Source/KAPPanelBase.h"/>
+      <FILE id="L1T7Gj" name="KAPCenterPanel.cpp" compile="1" resource="0"
+            file="Source/KAPCenterPanel.cpp"/>
+      <FILE id="RJXbWp" name="KAPCenterPanel.h" compile="0" resource="0"
+            file="Source/KAPCenterPanel.h"/>
+      <FILE id="j9dVxg" name="KAPCenterPanelMenuBar.cpp" compile="1" resource="0"
+            file="Source/KAPCenterPanelMenuBar.cpp"/>
+      <FILE id="FjukCO" name="KAPCenterPanelMenuBar.h" compile="0" resource="0"
+            file="Source/KAPCenterPanelMenuBar.h"/>
+      <FILE id="ig24s2" name="KAPFxPanel.cpp" compile="1" resource="0" file="Source/KAPFxPanel.cpp"/>
+      <FILE id="G15Pp6" name="KAPFxPanel.h" compile="0" resource="0" file="Source/KAPFxPanel.h"/>
+      <FILE id="qsxRAW" name="KAPGainPanel.cpp" compile="1" resource="0"
+            file="Source/KAPGainPanel.cpp"/>
+      <FILE id="I8jnnt" name="KAPGainPanel.h" compile="0" resource="0" file="Source/KAPGainPanel.h"/>
+      <FILE id="pn94oH" name="KAPMainPanel.cpp" compile="1" resource="0"
+            file="Source/KAPMainPanel.cpp"/>
+      <FILE id="ZcEKVQ" name="KAPMainPanel.h" compile="0" resource="0" file="Source/KAPMainPanel.h"/>
+      <FILE id="Bda6Az" name="KAPTopPanel.cpp" compile="1" resource="0" file="Source/KAPTopPanel.cpp"/>
+      <FILE id="OSmoTM" name="KAPTopPanel.h" compile="0" resource="0" file="Source/KAPTopPanel.h"/>
+    </GROUP>
+    <GROUP id="{6CA3B10F-5549-8AE3-0BF5-D59BA402372A}" name="Helpers">
+      <FILE id="JWVHWc" name="KAPAudioHelpers.h" compile="0" resource="0"
+            file="Source/KAPAudioHelpers.h"/>
+      <FILE id="dNLqDn" name="KAPHelperFunctions.h" compile="0" resource="0"
+            file="Source/KAPHelperFunctions.h"/>
+      <FILE id="IbnW3A" name="KAPInterfaceDefines.h" compile="0" resource="0"
+            file="Source/KAPInterfaceDefines.h"/>
+      <FILE id="WDHwEI" name="KAPLookAndFeel.h" compile="0" resource="0"
+            file="Source/KAPLookAndFeel.h"/>
+      <FILE id="Nn91tf" name="KAPParameters.h" compile="0" resource="0" file="Source/KAPParameters.h"/>
+    </GROUP>
+    <GROUP id="{83B22405-9483-2A0C-3CA2-69231ADEDE5D}" name="DSP">
+      <FILE id="sj8SvQ" name="KAPDelay.cpp" compile="1" resource="0" file="Source/KAPDelay.cpp"/>
+      <FILE id="GVCXd5" name="KAPDelay.h" compile="0" resource="0" file="Source/KAPDelay.h"/>
+      <FILE id="QIcYRi" name="KAPGain.cpp" compile="1" resource="0" file="Source/KAPGain.cpp"/>
+      <FILE id="Ep78kK" name="KAPGain.h" compile="0" resource="0" file="Source/KAPGain.h"/>
+      <FILE id="FvMBc9" name="KAPLfo.cpp" compile="1" resource="0" file="Source/KAPLfo.cpp"/>
+      <FILE id="M51eMF" name="KAPLfo.h" compile="0" resource="0" file="Source/KAPLfo.h"/>
+    </GROUP>
+    <GROUP id="{B246DEC0-3644-57C3-CA61-D3F89573B2CA}" name="Source">
+      <FILE id="KSAI5E" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="eivHO0" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="MSyU5R" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="nqtZ4s" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+    <GROUP id="{2087A1F5-C6BC-E76E-4953-AF68F3669AD2}" name="Assets">
+      <FILE id="tT8Ti3" name="kadenze_bg.png" compile="0" resource="1" file="Assets/kadenze_bg.png"/>
+      <FILE id="vDJ0WZ" name="kadenze_knob.png" compile="0" resource="1"
+            file="Assets/kadenze_knob.png"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="KadenzeAudioPlugin"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="KadenzeAudioPlugin"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../juce_repo/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../juce_repo/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../juce_repo/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../juce_repo/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../juce_repo/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../juce_repo/modules"/>
+        <MODULEPATH id="juce_core" path="../../juce_repo/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../juce_repo/modules"/>
+        <MODULEPATH id="juce_events" path="../../juce_repo/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../juce_repo/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../juce_repo/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../juce_repo/modules"/>
+      </MODULEPATHS>
+    </VS2019>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
